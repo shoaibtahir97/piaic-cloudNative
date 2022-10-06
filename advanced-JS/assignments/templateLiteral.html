@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template Literals</title>
+</head>
+<body>
+    
+
+    <script>
+        let coverLetter;
+        let userName = "Muhammad Shoaib Tahir";
+        let date = "6 Octobet, 2022";
+
+        coverLetter = `
+                                                                                            ${date}
+        Mr John Smith
+        Fedderal B Area, 
+        Karachi,
+
+        Dear Mr John Smith
+
+        My name is ${userName}. I am thrilled to be applying for the programmist role in your company. 
+        After reviewing your job description, it's clear that you are looking for an enthusiastic applicant.
+
+        Sincerely,
+
+        ${userName}
+        `
+
+        console.log(coverLetter)
+    </script>
+
+
+</body>
+</html>
